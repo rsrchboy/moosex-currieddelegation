@@ -10,10 +10,7 @@ use Test::Moose::More;
     use Moose;
 
     sub curried { shift; return @_ }
-
-    sub foo { }
-    sub bar { }
-    sub baz { }
+    sub to_self { ref $_[1]        }
 }
 {
     package TestClass;
@@ -31,25 +28,8 @@ use Test::Moose::More;
 
         handles => {
 
-            # method-curry
-            #   triggered by hashref, not arrayref
-            #   first arg is the remote method to delegate to
-            #   second is an arrayref comprising:
-            #       coderef to call as a method on the instance, followed by
-            #       "static" curry args
-            #
-            # so, essentially:
-            #   $self->foo->remote_method($self->$coderef(), @remaining_args);
-            #
-            # foo_del_one => { remote_method => [ sub { ..gen curry args.. }, qw{ more curry args } ] },
-
             foo_del_one => { curried => [ sub { shift->one }, qw{ more curry args } ] },
-
-            ## curry_with_self returns: remote_method => sub { shift }
-            #baz => { curry_with_self 'remote_method' => qw{ more curry args } },
-            #
-            #bar => { curry_with 'remote_method' { ..gen curry args.. } qw{ more curry args } },
-
+            foo_del_two => { to_self => [ curry_to_self ] },
         },
     );
 
@@ -71,6 +51,8 @@ with_immutable {
         [ qw{ not_default more curry args } ],
         'simple method currying works as expected',
     );
+
+    is $test->foo_del_two, 'TestClass', 'curry_to_self works as expected';
 
 } 'TestClass';
 
