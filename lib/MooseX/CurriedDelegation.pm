@@ -103,20 +103,11 @@ is equivalent to:
 
 Resolves out to the full name of our attribute trait; you can use it as:
 
-    has foo => ( traits => [CurriedDelegation], ...)
+    has foo => (traits => [CurriedDelegation], ...)
 
 =head1 SEE ALSO
 
-L<Moose>, L<Moose::Meta::Method::Delegation>
-
-=head1 BUGS
-
-All complex software has bugs lurking in it, and this module is no exception.
-
-Bugs, feature requests and pull requests through GitHub are most welcome; our
-page and repo (same URI):
-
-    https://github.com/RsrchBoy/moosex-currieddelegation
+L<Moose>
+L<Moose::Meta::Method::Delegation>
 
 =cut
-
