@@ -9,6 +9,14 @@ use Moose::Util 'with_traits';
 # debugging...
 #use Smart::Comments;
 
+=method method_curried_delegation_metaclass
+
+Returns a class composed of the applied class' delegation metaclass and our
+delegation method trait.
+
+=cut
+
+
 sub method_curried_delegation_metaclass {
     return with_traits
         shift->delegation_metaclass,
