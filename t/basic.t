@@ -2,7 +2,7 @@ use strict;
 use warnings;
 
 use Test::More;
-use Test::Moose;
+use Test::Moose 'has_attribute_ok';
 use Test::Moose::More;
 
 {
