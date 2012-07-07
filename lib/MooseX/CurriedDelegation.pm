@@ -97,6 +97,10 @@ is equivalent to:
 
     local => { remote => [ sub { shift } ] }
 
+is equivalent to:
+
+    $self->attribute_accessor->remote($self)
+
 =head1 TRAIT ALIASES
 
 =head2 CurriedDelegation
