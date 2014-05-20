@@ -65,7 +65,7 @@ __END__
 
 Method delegation is awfully handy -- but sometimes it'd be awfully handier if
 it was a touch more dynamic.  This is an attribute trait that provides for a
-curried, delegated method to be provided anyna
+delegated method to be curried.
 
 =head1 USAGE
 
