@@ -57,7 +57,7 @@ __END__
 =head1 DESCRIPTION
 
 This is just a trait applied to the delegation method metaclass (generally
-L<Moose::Meta::Method::Delegation>).  No user-servicable parts here.
+L<Moose::Meta::Method::Delegation>).  No user-serviceable parts here.
 
 =head1 SEE ALSO
 
