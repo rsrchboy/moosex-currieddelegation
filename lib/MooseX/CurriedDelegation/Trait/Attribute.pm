@@ -4,7 +4,7 @@ package MooseX::CurriedDelegation::Trait::Attribute;
 
 use Moose::Role;
 use namespace::autoclean;
-use Moose::Util 'with_traits';
+use MooseX::Util 'with_traits';
 
 # debugging...
 #use Smart::Comments;
