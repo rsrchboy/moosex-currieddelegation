@@ -6,8 +6,7 @@ use Moose::Role;
 use namespace::autoclean;
 use MooseX::Util 'with_traits';
 
-# debugging...
-#use Smart::Comments;
+use aliased 'MooseX::CurriedDelegation::Trait::Method::Delegation' => 'OurMethodTrait';
 
 =method method_curried_delegation_metaclass
 
@@ -18,10 +17,9 @@ delegation method trait.
 
 
 sub method_curried_delegation_metaclass {
-    return with_traits
-        shift->delegation_metaclass,
-        'MooseX::CurriedDelegation::Trait::Method::Delegation',
-        ;
+    my $self = shift @_;
+
+    return with_traits($self->delegation_metaclass => OurMethodTrait);
 }
 
 around _make_delegation_method => sub {
