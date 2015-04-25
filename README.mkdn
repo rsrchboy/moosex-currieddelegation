@@ -1,10 +1,13 @@
+[![Build Status](https://travis-ci.org/RsrchBoy/moosex-currieddelegation.svg?branch=master)](https://travis-ci.org/RsrchBoy/moosex-currieddelegation)
+[![Kwalitee status](http://cpants.cpanauthors.org/dist/MooseX-CurriedDelegation.png)](http://cpants.charsbar.org/dist/overview/MooseX-CurriedDelegation)
+
 # NAME
 
 MooseX::CurriedDelegation - Curry your delegations with methods
 
 # VERSION
 
-This document describes version 0.003 of MooseX::CurriedDelegation - released April 11, 2015 as part of MooseX-CurriedDelegation.
+This document describes version 0.003 of MooseX::CurriedDelegation - released April 24, 2015 as part of MooseX-CurriedDelegation.
 
 # SYNOPSIS
 
