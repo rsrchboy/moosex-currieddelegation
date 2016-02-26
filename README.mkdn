@@ -1,5 +1,6 @@
 [![Build Status](https://travis-ci.org/RsrchBoy/moosex-currieddelegation.svg?branch=master)](https://travis-ci.org/RsrchBoy/moosex-currieddelegation)
 [![Kwalitee status](http://cpants.cpanauthors.org/dist/MooseX-CurriedDelegation.png)](http://cpants.charsbar.org/dist/overview/MooseX-CurriedDelegation)
+[![Coverage Status](https://coveralls.io/repos/RsrchBoy/moosex-currieddelegation/badge.svg?branch=master)](https://coveralls.io/r/RsrchBoy/moosex-currieddelegation?branch=master)
 
 # NAME
 
@@ -7,7 +8,7 @@ MooseX::CurriedDelegation - Curry your delegations with methods
 
 # VERSION
 
-This document describes version 0.003 of MooseX::CurriedDelegation - released April 24, 2015 as part of MooseX-CurriedDelegation.
+This document describes version 0.003 of MooseX::CurriedDelegation - released February 26, 2016 as part of MooseX-CurriedDelegation.
 
 # SYNOPSIS
 
@@ -100,11 +101,6 @@ Please see those modules/websites for more information related to this module.
 - [Moose](https://metacpan.org/pod/Moose)
 - [Moose::Meta::Method::Delegation](https://metacpan.org/pod/Moose::Meta::Method::Delegation)
 
-# SOURCE
-
-The development version is on github at [http://https://github.com/RsrchBoy/moosex-currieddelegation](http://https://github.com/RsrchBoy/moosex-currieddelegation)
-and may be cloned from [git://https://github.com/RsrchBoy/moosex-currieddelegation.git](git://https://github.com/RsrchBoy/moosex-currieddelegation.git)
-
 # BUGS
 
 Please report any bugs or feature requests on the bugtracker website
@@ -116,12 +112,12 @@ feature.
 
 # AUTHOR
 
-Chris Weyl <cweyl@alumni.drew.edu>
+Chris Weyl &lt;cweyl@alumni.drew.edu>
 
 ## I'm a material boy in a material world
 
 <div>
-    <a href="https://www.gittip.com/RsrchBoy/"><img src="https://raw.githubusercontent.com/gittip/www.gittip.com/master/www/assets/%25version/logo.png" /></a>
+    <a href="https://gratipay.com/RsrchBoy/"><img src="http://img.shields.io/gratipay/RsrchBoy.svg" /></a>
     <a href="http://bit.ly/rsrchboys-wishlist"><img src="http://wps.io/wp-content/uploads/2014/05/amazon_wishlist.resized.png" /></a>
     <a href="https://flattr.com/submit/auto?user_id=RsrchBoy&url=https%3A%2F%2Fgithub.com%2FRsrchBoy%2Fmoosex-currieddelegation&title=RsrchBoy's%20CPAN%20MooseX-CurriedDelegation&tags=%22RsrchBoy's%20MooseX-CurriedDelegation%20in%20the%20CPAN%22"><img src="http://api.flattr.com/button/flattr-badge-large.png" /></a>
 </div>
@@ -131,9 +127,9 @@ rather **it is simply a very pleasant surprise**. I largely create and release
 works like this because I need them or I find it enjoyable; however, don't let
 that stop you if you feel like it ;)
 
-[Flattr this](https://flattr.com/submit/auto?user_id=RsrchBoy&url=https%3A%2F%2Fgithub.com%2FRsrchBoy%2Fmoosex-currieddelegation&title=RsrchBoy&#x27;s%20CPAN%20MooseX-CurriedDelegation&tags=%22RsrchBoy&#x27;s%20MooseX-CurriedDelegation%20in%20the%20CPAN%22),
-[gittip me](https://www.gittip.com/RsrchBoy/), or indulge my
-[Amazon Wishlist](http://bit.ly/rsrchboys-wishlist)...  If you so desire.
+[Flattr](https://flattr.com/submit/auto?user_id=RsrchBoy&url=https%3A%2F%2Fgithub.com%2FRsrchBoy%2Fmoosex-currieddelegation&title=RsrchBoy&#x27;s%20CPAN%20MooseX-CurriedDelegation&tags=%22RsrchBoy&#x27;s%20MooseX-CurriedDelegation%20in%20the%20CPAN%22),
+[Gratipay](https://gratipay.com/RsrchBoy/), or indulge my
+[Amazon Wishlist](http://bit.ly/rsrchboys-wishlist)...  If and \*only\* if you so desire.
 
 # COPYRIGHT AND LICENSE
 

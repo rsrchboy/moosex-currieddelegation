@@ -17,10 +17,14 @@ perl:
     - "5.16"
     - "5.18"
     - "5.20"
+    - "5.22"
+    - "5.23"
 
 matrix:
     allow_failures:
         - perl: "5.8"
+        - perl: "5.22"
+        - perl: "5.23"
 
 branches:
     except:
@@ -35,8 +39,6 @@ before_install:
     - source ../p5/init
     - ../p5/before-install.dzil
 
-install:
-    - ../p5/install.dzil
-
-script:
-    - ../p5/script.dzil
+install:       ../p5/install.dzil
+script:        ../p5/script.dzil
+after_success: ../p5/after_success
