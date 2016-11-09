@@ -11,7 +11,7 @@ use Moose::Exporter;
 my $trait = 'MooseX::CurriedDelegation::Trait::Attribute';
 
 Moose::Exporter->setup_import_methods(
-    trait_aliases => [ $trait => 'CurriedDelegation' ],
+    trait_aliases => [ [ $trait => 'CurriedDelegation' ] ],
 
     as_is => [ qw{ curry_to_self } ],
     class_metaroles => { attribute         => [ $trait ] },
