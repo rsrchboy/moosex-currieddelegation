@@ -1,7 +1,5 @@
 Revision history for MooseX-CurriedDelegation
 
-{{$NEXT}}
-
 0.003     2016-11-09 14:52:12 CST-0600
 	* Fix our trait alias declaration (sigh)
 
