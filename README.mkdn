@@ -8,7 +8,7 @@ MooseX::CurriedDelegation - Curry your delegations with methods
 
 # VERSION
 
-This document describes version 0.003 of MooseX::CurriedDelegation - released February 26, 2016 as part of MooseX-CurriedDelegation.
+This document describes version 0.003 of MooseX::CurriedDelegation - released November 09, 2016 as part of MooseX-CurriedDelegation.
 
 # SYNOPSIS
 
@@ -104,7 +104,7 @@ Please see those modules/websites for more information related to this module.
 # BUGS
 
 Please report any bugs or feature requests on the bugtracker website
-https://github.com/RsrchBoy/moosex-currieddelegation/issues
+[https://github.com/RsrchBoy/moosex-currieddelegation/issues](https://github.com/RsrchBoy/moosex-currieddelegation/issues)
 
 When submitting a bug or request, please include a test-file or a
 patch to an existing test-file that illustrates the bug or desired
@@ -112,7 +112,7 @@ feature.
 
 # AUTHOR
 
-Chris Weyl &lt;cweyl@alumni.drew.edu>
+Chris Weyl <cweyl@alumni.drew.edu>
 
 ## I'm a material boy in a material world
 
