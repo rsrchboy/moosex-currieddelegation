@@ -1,6 +1,6 @@
 package MooseX::CurriedDelegation::Trait::Attribute;
 
-# ABSTRACT: The great new MooseX::CurriedDelegation!
+# ABSTRACT: Attribute trait for MooseX::CurriedDelegation
 
 use Moose::Role;
 use namespace::autoclean;
